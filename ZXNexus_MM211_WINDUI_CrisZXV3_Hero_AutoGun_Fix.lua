@@ -1,4 +1,4 @@
--- Защита от повторной загрузки
+8-- Защита от повторной загрузки
 if getgenv().ZXNexusLoaded then
     warn("⚠ ZXNexus is already running!")
     return
@@ -31,9 +31,6 @@ if not TESTERS[player.Name] then
     player:Kick("This script is only for testers.")
     return
 end
-
--- Конфигурация
-local CONFIG = {
 
 -- Конфигурация
 local CONFIG = {

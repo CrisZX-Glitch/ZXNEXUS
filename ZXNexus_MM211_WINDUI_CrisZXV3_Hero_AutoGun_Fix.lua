@@ -1,4 +1,4 @@
--- Защита от повторной загрузки
+
 if getgenv().ZXNexusLoaded then
     warn("⚠ ZXNexus is already running!")
     return

@@ -25,6 +25,7 @@ local TESTERS = {
     ["cris_gamesrivals000"] = true,
     ["Denny123841"] = true,
     ["meisn468"] = true,
+	["yhxdhbc"] = true,
 }
 
 if not TESTERS[player.Name] then
